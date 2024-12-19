@@ -4,3 +4,10 @@ int main(){
 	int c= a/0;
 	printf(c);
 }
+
+#include<stdio.h>
+int main(){
+  int a,b,c;
+  c = a+b;
+  printf("Result is:", c);
+}
